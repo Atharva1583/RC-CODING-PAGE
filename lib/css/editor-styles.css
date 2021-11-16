@@ -1,0 +1,125 @@
+:root{
+    --editor-bg:#eee;
+    --editor-border:#3f87a6;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#col-1{
+    border: 1px solid black;
+    height: 490px;
+    padding: 20px;
+}
+#col-2{
+    border: 1px solid black;
+    height: 490px;
+}
+#questions{
+    margin-left: 1.5vh;
+    margin-right: 1vh;
+}
+#input{
+    margin-top: 2vh;
+    margin-left: 1.5vh;
+    
+}
+#output{
+    margin-top: 2vh;
+    margin-right: 1vh;
+}
+#upperBtns{
+    padding: 20px;
+}
+
+input[type="file"]
+{
+  display: none;
+}
+.fileUpload input.upload 
+{
+    display: inline-block;
+}
+.modebtns{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid grey;
+    margin:2.5px 10px;
+}
+
+#lightmodebtn{
+    display: none;
+    
+}
+
+.codeeditdiv{
+    flex: 100%;
+    /* min-height: 350px; */
+    /*border: 1px solid grey;*/
+    border-radius: 3px;
+    max-height: calc(100% - 50px);
+    max-width: 100%;
+    flex-direction: column;
+}
+.editor {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.editor_wrapper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+   
+    
+    /* padding: 0.5em; */
+    border-radius: 3px;
+    /* border:1px solid #ccc; */
+}
+.editor_body{
+    flex: 1;
+}
+.editor_footer{
+    display: flex;
+}
+.editor_footer_left{
+    display: flex;
+    flex-direction: column;
+}
+.editor_footer_right{
+    flex: 1;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.editor_btn{
+    border:0;
+    padding: 0.5em;
+    background-color: #fff;
+    border:2px solid #333;
+    margin-top: 1em;
+    width: 80px;
+    cursor: pointer;
+}
+.editor_code{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    border: 1px solid var(--editor-border);
+}
+#lowerBtns{
+    margin-top: 1px;
+}
